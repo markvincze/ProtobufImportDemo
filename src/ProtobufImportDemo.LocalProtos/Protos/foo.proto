@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Protos/bar.proto";
+
+message Foo {
+  string prop1 = 1;
+  Bar prop2 = 2;
+}
